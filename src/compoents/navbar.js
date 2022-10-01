@@ -1,5 +1,3 @@
-
-
 function nav() {
   return (
     <main>
