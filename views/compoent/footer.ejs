@@ -66,46 +66,37 @@
             
             <h4>Send us a message</h4>
             <p>Free Will to contact us.</p>
-            <form action="" method="post" role="form" class="contactForm">
+            <form action="https://formsubmit.co/c89f1ac3b75207634bf8f5e6cbedacc5" method="post" role="form" class="contactForm">
               <div class="form-group">
+                <input type="hidden" name="_captcha" value="false">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                <div class="validation"></div>
               </div>
               <div class="form-group">
                 <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                <div class="validation"></div>
               </div>
               <div class="form-group">
                 <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                <div class="validation"></div>
               </div>
               <div class="form-group">
                 <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                <div class="validation"></div>
               </div>
-
               <div id="sendmessage">Your message has been sent. Thank you!</div>
-              <div id="errormessage"></div>
-
-              <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
+              <div id="errormessage"><input type="hidden" name="_autoresponse" value="Your Message is Sent"></div>
+              <div class="text-center">
+                  <button type="submit" title="Send Message">Send Message</button>
+              </div>
             </form>
           </div>
-
         </div>
-
-        
-
       </div>
-
     </div>
   </div>
 
-  <div class="container">
-    <div class="copyright">
+<div class="container">
+  <div class="copyright">
       &copy; Copyright <strong>One Power</strong>. All Rights Reserved
-    </div>
-    <div class="credits">
-      
-      Designed by <a href="">One Power</a>
-    </div>
   </div>
+  <div class="credits">    
+      Designed by <a href="">One Power</a>
+  </div>
+</div>
