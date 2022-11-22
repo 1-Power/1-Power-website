@@ -1,0 +1,3 @@
+#This filee will prevent the node modules to be uploaded to the github.
+# The reason we don't upload node modules to the github becase they are heavy. 
+node_modules/*
